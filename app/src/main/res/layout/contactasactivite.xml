@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/_676394956_image_48"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="screen"
+    tools:context=".RHActivity"    >
+
+    <TextView
+        android:id="@+id/rhpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="RH Contant"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/loginLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menumain"
+        android:orientation="vertical"
+
+
+
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="name : " />
+
+        <EditText
+            android:id="@+id/edit_text_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rhe"
+            android:enabled="false"
+            android:textStyle="italic"
+             android:hint="Enter file name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="text_reason : "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+        <Spinner
+            android:id="@+id/spinner_reason"
+            android:layout_width="match_parent"
+            android:background="@drawable/rhe"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="text_message : " />
+
+        <EditText
+            android:id="@+id/edit_text_message"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:background="@drawable/rhe"
+            android:hint="
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+............................................................................" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/homee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="home"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button_send"
+                android:layout_width="wrap_content"
+                android:onClick="seddata"
+                android:layout_height="wrap_content"
+                android:text="Send Request"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

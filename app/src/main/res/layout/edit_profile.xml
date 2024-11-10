@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="screen"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/editTextTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/editTextTextUsername"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/editTextTextPassword"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        android:layout_below="@id/editTextTextNewPassword"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6AE8C"
+    android:backgroundTintMode="screen"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLeayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:background="@drawable/_676394956_image_48"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="113dp"
+            android:layout_height="131dp"
+            android:background="@color/common_google_signin_btn_text_light_disabled" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="122dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/linearLeayout1"
+        app:layout_constraintVertical_bias="0.985">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="106dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:drawableTop="@android:drawable/ic_dialog_email"
+                android:text="DIstru"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="106dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="LQC"
+                android:drawableTop="@android:drawable/ic_dialog_dialer"
+                android:background="@drawable/button_background"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/Profile"
+                android:layout_width="106dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="Profile"
+                android:textColor="@color/red"
+                android:drawableTop="@android:drawable/ic_menu_my_calendar"
+                android:background="@drawable/button_background"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="106dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="Button"
+                android:drawableTop="@android:drawable/ic_dialog_email"
+                android:background="@drawable/button_background"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="106dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:text="Button"
+                android:drawableTop="@android:drawable/ic_dialog_email"
+                android:background="@drawable/button_background"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="106dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:text="Button"
+                android:drawableTop="@android:drawable/ic_dialog_email"
+                android:background="@drawable/button_background"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="11dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/contuss"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="11dp"
+                android:drawableRight="@android:drawable/ic_dialog_email"
+                android:background="@color/teal_200"
+                android:text="CONTACTEZ NOUS" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

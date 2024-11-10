@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:background="@drawable/button_background"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="505dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Your Matricule"
+                android:textSize="20dp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Your Name"
+                android:textSize="20dp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Subject Name"
+                android:textSize="20dp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="your message her"
+                android:textSize="20dp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/myButton"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:alpha="4"
+                android:background="@drawable/button_selector"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal|end"
+                android:letterSpacing="0.2"
+                android:padding="12dp"
+                android:rotation="-17"
+                android:rotationX="21"
+                android:rotationY="8"
+                android:scaleX="01"
+                android:text="Click Me"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

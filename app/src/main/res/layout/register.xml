@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/_676394956_image_48"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+
+                <TextView
+                    android:id="@+id/rhpage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Register"
+                    android:textColor="@color/red"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/vieutextusername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+
+                        android:text="Username: " />
+
+                    <EditText
+                        android:id="@+id/editextusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="2"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextlast_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="last_name: " />
+
+                    <EditText
+                        android:id="@+id/editextlast_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextmatricule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="matricule: " />
+
+                    <EditText
+                        android:id="@+id/editextmatricule"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="phone"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutTextEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="Email: " />
+
+                    <EditText
+                        android:id="@+id/editTextTextEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextpassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="password: " />
+
+                    <EditText
+                        android:id="@+id/editextpassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextdisplayname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="displayname: " />
+
+                    <EditText
+                        android:id="@+id/editextdisplayname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextyour_department"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="your_department: " />
+
+                    <EditText
+                        android:id="@+id/editextyour_department"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextcase_nameber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="case_nameber: " />
+
+                    <EditText
+                        android:id="@+id/editextcase_nameber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextparada"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="parada: " />
+
+                    <EditText
+                        android:id="@+id/editextparada"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextchef_de_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="chef_de_line: " />
+
+                    <EditText
+                        android:id="@+id/editextchef_de_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextla_chine_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="la_chine_name: " />
+
+                    <EditText
+                        android:id="@+id/editextla_chine_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextyour_poste"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="your_poste: " />
+
+                    <EditText
+                        android:id="@+id/editextyour_poste"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/vieutextelephone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="telephone: " />
+
+                    <EditText
+                        android:id="@+id/editexttelephone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="111"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/buttomshap"
+                    android:text="Register"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/home"
+                    app:layout_constraintHorizontal_bias="0.004"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="NotSibling" />
+
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttomshap"
+
+                    android:onClick="home"
+                    android:text="HoMe"
+                    android:textAlignment="gravity"
+                    android:textStyle="italic"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

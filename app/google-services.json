@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249635715878",
+    "project_id": "yazakiapp",
+    "storage_bucket": "yazakiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249635715878:android:87544bd57684ab737adfe7",
+        "android_client_info": {
+          "package_name": "yazakiapp.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkPMu5TLil7cjxDAFtRUf2G7ci658l8xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">YaZaKi App</string>
+    <string-array name="menuu">
+        <item>page1</item>
+        <item>page2</item>
+        <item>page3</item>
+        <item>page4</item>
+        <item>page5</item>
+        <item>page6</item>
+        <item>page7</item>
+
+    </string-array>
+    <string name="please_wait">Please wait...</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

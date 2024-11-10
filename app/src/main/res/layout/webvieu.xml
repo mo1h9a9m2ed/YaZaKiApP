@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".webvieu">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="676dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="674dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/wwebview"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLeayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="676dp">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextt"
+            android:text="next" />
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="prevv"
+            android:text="prev" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
